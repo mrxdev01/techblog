@@ -1,0 +1,68 @@
+User-agent: *
+Allow: /
+
+# Block the admin area from indexing
+Disallow: /admin
+
+# ---------------------------------------------------------------------------
+# AI answer engines (AEO / GEO) — explicitly welcome them to read & cite.
+# ChatGPT / OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot / Bing
+User-agent: bingbot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (feeds many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# ---------------------------------------------------------------------------
+Sitemap: https://factonia.in/sitemap.xml
